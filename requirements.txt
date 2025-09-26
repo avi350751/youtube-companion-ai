@@ -1,0 +1,16 @@
+streamlit
+google-genai
+youtube-transcript-api==1.2.2
+langchain
+langchain-google-genai
+langchain-chroma
+python-dotenv
+google-generativeai
+gtts
+langchain_community
+langchain_experimental
+sentence-transformers
+langchainhub
+pypdf
+requests
+rapidocr-onnxruntime
