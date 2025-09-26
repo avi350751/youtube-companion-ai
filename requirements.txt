@@ -14,3 +14,4 @@ langchainhub
 pypdf
 requests
 rapidocr-onnxruntime
+pysqlite3-binary
