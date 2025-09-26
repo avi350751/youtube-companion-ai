@@ -1,3 +1,10 @@
+#The first things in your code must be#
+__import__('sqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+
+#Import libraries
 import streamlit as st
 from helper import (
     get_video_id, get_transcript_text, translate_transcript, get_important_topics, generate_notes,
